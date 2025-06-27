@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prachi Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <span class="prachi">Prachi's</span> <span class="portfolio">Portfolio</span>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#home"> Home </a></li>
+          <li><a href="#about"> About </a></li>
+          <li><a href="#projects"> Projects </a></li>
+          <li><a href="#contact"> Contact Me </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="leftSection">
+        Hi! It's Prachi
+        <div>and I am a <br><span id="typed-text"></span></div>
+      </div>
+      <div class="rightSection">
+        <img src="prachi.jpg" alt="developer image" class="profile-img" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm <strong>Prachi Soni</strong>, a B.Tech student in <strong>Mathematics and Data Science</strong> at 
+        <strong>MANIT Bhopal</strong>, with a CGPA of 8.99. I’m passionate about technology, especially in 
+        <strong>Web Development</strong> and <strong>Machine Learning</strong>. With a problem-solving mindset and strong 
+        collaboration skills, I enjoy turning ideas into working products. Currently serving as the 
+        <strong>Technical Secretary of IEEE MANIT</strong>, I’ve helped organize technical events and workshops.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>🔬 Diabetes Prediction</h3>
+        <p>
+          Built a machine learning pipeline using Python, Pandas, NumPy, and Scikit-learn to predict diabetes risk 
+          using 70,000+ patient records. Implemented multiple classification models and achieved 77% accuracy.<br>
+          <a href="https://github.com/Prachi250811/DiabetesPrediction" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>📊 Sorting Algorithm Visualizer</h3>
+        <p>
+          Created an interactive visualizer for Bubble, Merge, Quick, and other sorting algorithms using HTML, CSS, and JavaScript. 
+          Optimized for smooth animations and deployed using GitHub Pages.<br>
+          <a href="https://prachi250811.github.io/Sorting_Visualizer/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/Prachi250811/Sorting_Visualizer" target="_blank">GitHub</a>
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>🌸 Iris Flower Classification</h3>
+        <p>
+          Trained a model on the Iris dataset using SVM, Decision Tree, and KNN, achieving 90%+ accuracy. 
+          Employed feature scaling and model tuning using Python libraries.<br>
+          <a href="https://github.com/Prachi250811/IrisFlower_MLProject" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="contact-container">
+ 
+
+ <section id="contact" class="contact-section">
+  <h2 class="contact-heading">Let's Connect! 🚀</h2>
+
+  <div class="contact-container">
+    <!-- Left: Contact Info -->
+    <div class="contact-left">
+      <p><img src="email.png" class="icon" /> prachisoni557@gmail.com</p>
+      <p><img src="phone.png" class="icon" /> +91 7000053257</p>
+
+      <div class="social-icons">
+        <a href="https://github.com/Prachi250811" target="_blank"><img src="github-icon.png" class="icon" /></a>
+        <a href="mailto:prachisoni557@gmail.com"><img src="email.png" class="icon" /></a>
+        <a href="https://www.linkedin.com/in/prachi-soni-87b805297/" target="_blank"><img src="linkedin-logo.png" class="icon" /></a>
+        <a href="https://leetcode.com/Prachi_Soni_25" target="_blank"><img src="leetcode.png" class="icon" /></a>
+      </div>
+
+      <a href="resume.pdf" download class="btn">Download CV</a>
+    </div>
+
+    <!-- Right: Contact Form -->
+   <form action="https://api.web3forms.com/submit" method="POST">
+     <input type="hidden" name="access_key" value="98ab14b4-d46c-4570-a5c5-716aca00d6af">
+     <input type="text" name="name" placeholder="Your Name" required>
+     <input type="email" name="email" placeholder="Your Email" required>
+     <textarea name="message" placeholder="Your Message" required></textarea>
+     <button type="submit">Send</button>
+  </form>
+
+  </div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

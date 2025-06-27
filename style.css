@@ -1,0 +1,238 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #111111;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.1);
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 6px #00ffff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00ffff;
+  font-size: 1.04rem;
+}
+
+.left {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 6px #00ffff;
+}
+
+.prachi {
+  color: white;
+}
+
+.portfolio {
+  color: #00ffff;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 0;
+  padding: 0 5%;
+}
+
+.home div {
+  width: 40%;
+}
+
+.leftSection {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.leftSection div {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+.profile-img {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 20px #68e0e0;
+}
+
+section {
+  padding: 100px 5%;
+}
+
+h2 {
+  color: #00ffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  color: #00e5ff;
+}
+
+.project p, section p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+form input, form textarea {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #00ffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #00ffff;
+  margin: 8px 0;
+  text-decoration: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.contact-section {
+  background-color: #000;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  color: cyan;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
+}
+
+.contact-left p {
+  margin: 10px 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  background-color: cyan;
+  color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #111;
+  border: 1px solid cyan;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  background-color: cyan;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
